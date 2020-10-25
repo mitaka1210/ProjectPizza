@@ -1,20 +1,34 @@
 import React from 'react';
-
+import Button from '../button/Button';
+import logo2 from '../assets/img/payment-method.svg';
+import logo from '../assets/img/pizza-logo.svg';
+import { Link, Route } from 'react-router-dom';
+import { Card, Home } from '../../pages';
 function Header() {
   return (
-    <div className='header'>
+    <header className='header'>
       <div className='container'>
-        <div className='header__logo'>
-          <img width='38' src='./img/pizza-logo.svg' alt='Pizza logo' />
-          <div>
-            <h1>React Pizza</h1>
-            <p>самая вкусная пицца во вселенной</p>
+        <Link to='/'>
+          <div className='header__logo'>
+            <Route path='/card' component={Card} exact>
+              <img width='38' src={logo2} alt='Pizza logo' />
+            </Route>
+            <Route path='/' component={Home} exact>
+              <img width='38' src={logo} alt='Pizza logo' />
+            </Route>
+
+            <div>
+              <h1>React Pizza</h1>
+              <p>самая вкусная пицца во вселенной</p>
+            </div>
           </div>
-        </div>
+        </Link>
         <div className='header__cart'>
-          <a href='/cart.html' className='button button--cart'>
-            <span>520 ₽</span>
-            <div className='button__dLimiter'></div>
+          <Button className='button button--cart' />
+          {/*<a href='/cart.html' className='button button--cart'>*/}
+
+          {/*<span>520 ₽</span>
+            <div className='button__delimiter'></div>
             <svg
               width='18'
               height='18'
@@ -43,11 +57,11 @@ function Header() {
                 strokeLinejoin='round'
               />
             </svg>
-            <span>3</span>
-          </a>
+            <span>3</span>*/}
+          {/*</a>*/}
         </div>
       </div>
-    </div>
+    </header>
   );
 }
 
