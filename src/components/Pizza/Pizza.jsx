@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
 function Pizza({ name, imageUrl, price, types, sizes }) {
@@ -6,6 +7,7 @@ function Pizza({ name, imageUrl, price, types, sizes }) {
   const availableSizesPizza = [26, 30, 40];
   const [activeType, setActiveType] = useState(types[0]);
   const [activeSize, setActiveSize] = useState(types[0]);
+
   const onSelectType = (index) => {
     setActiveType(index);
   };
@@ -68,4 +70,20 @@ function Pizza({ name, imageUrl, price, types, sizes }) {
   );
 }
 
+//! Проверяваме  какви са типовете на пропс.Това което прави typeScript.Той проверява в DB. И ако там нещо се смени хвърля грешка в конзолата на браузъра.
+//?.arrayOf(PropTypes.number) - проверява да ли в масива има само числа и ако няма хвърля грешка.
+Pizza.propTypes = {
+  name: PropTypes.string.isRequired,
+  price: PropTypes.number.isRequired,
+  types: PropTypes.arrayOf(PropTypes.number).isRequired,
+  sizes: PropTypes.arrayOf(PropTypes.number).isRequired,
+  imageUrl: PropTypes.string.isRequired,
+};
+//? Обеснявам  на компонента,че без тези данни неможе да живее и за даняма промеблеми да се хвърля грешка и приложенито да спре му задавам някакви начални (defaultProps) стойности за пропс.Това всичко ако нещо липсва  в DB.
+Pizza.defaultProps = {
+  types: [],
+  size: [],
+  price: 0,
+  name: '----',
+};
 export default Pizza;

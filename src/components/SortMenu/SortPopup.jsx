@@ -1,11 +1,12 @@
 import React, { useState, useEffect, useRef } from 'react';
+import PropTypes from 'prop-types';
 //TODO: дългия запис на ref={sortRef} това е:
-//Tref={(elem) => {
+//ref={(elem) => {
 //	sortRef.current = elem;
 // }}
-function SortPopup({ menu }) {
+const SortPopup = React.memo(function SortPopup({ items, activeSortType, onClickSortType }) {
   const [showPopup, setShowPopup] = useState(false);
-  const [activeItem, setActiveItem] = useState(0);
+
   //! Запазва точния път по дом дървото в този случай това е className=sort.
   const sortRef = useRef();
   const toggle = () => {
@@ -18,9 +19,13 @@ function SortPopup({ menu }) {
     }
   };
   //! Зада може да се сменят менютата който падата създаме променлива и в нея записваме стойностите от който се държат в props.menu = имената на падащаите менюта и те започват да се сменят.
-  const activeMenuName = menu[activeItem];
+
+  const activeMenuName = items.find((obj) => obj.type === activeSortType).name;
   const onSelectItem = (index) => {
-    setActiveItem(index);
+    if (onClickSortType) {
+      onClickSortType(index);
+    }
+
     setShowPopup(false);
   };
 
@@ -48,13 +53,13 @@ function SortPopup({ menu }) {
       {showPopup && (
         <div className='sort__popup'>
           <ul>
-            {menu &&
-              menu.map((e, index) => (
+            {items &&
+              items.map((obj, index) => (
                 <li
-                  className={activeItem === index ? 'active' : ''}
-                  onClick={() => onSelectItem(index)}
-                  key={`${e}_${index}`}>
-                  {e}
+                  className={activeSortType === obj.type ? 'active' : ''}
+                  onClick={() => onSelectItem(obj)}
+                  key={`${obj.type}_${index}`}>
+                  {obj.name}
                 </li>
               ))}
             ;
@@ -63,6 +68,15 @@ function SortPopup({ menu }) {
       )}
     </div>
   );
-}
+});
 
+//! Проверяваме  какви са типовете на пропс.Това което прави typeScript.Той проверява в DB. И ако там нещо се смени хвърля грешка в конзолата на браузъра.
+//?.arrayOf(PropTypes.number) - проверява да ли в масива има само числа и ако няма хвърля грешка.
+SortPopup.propTypes = {
+  activeSortType: PropTypes.string.isRequired,
+  items: PropTypes.arrayOf(PropTypes.object).isRequired,
+  onClickSortType: PropTypes.func.isRequired,
+};
+////? Обеснявам  на компонента,че без тези данни неможе да живее и за даняма промеблеми да се хвърля грешка и приложенито да спре му задавам някакви начални (defaultProps) стойности за пропс.Това всичко ако нещо липсва  в DB.
+SortPopup.defaultProps = { items: [] };
 export default SortPopup;

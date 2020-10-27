@@ -1,12 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
 import * as axios from 'axios';
+import { setPizza } from '../redux/action/pizzas';
 
-export default function Api() {
-  const [pizzas, setPizzas] = useState([]);
+const dispatch = useDispatch();
+
+
   useEffect(() => {
     axios.get('http://localhost:3000/db.json').then(({ data }) => {
-      setPizzas(data.pizzas);
+      dispatch(setPizza(data.pizzas));
     });
-  }, []);
-  return <div></div>;
-}
+  }, [];
