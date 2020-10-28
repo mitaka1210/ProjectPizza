@@ -1,7 +1,15 @@
 import React from 'react';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 function Button({ onClick, className, outline }) {
+  //const { totalPrice, totalCount } = useSelector(({ card }) => ({
+  //  totalPrice: card.totalPrice,
+  //  totalCount: card.totalCount,
+  //}));
+  //? Кратияки запис на горното връщанисе обект card и чрез диструктизация вземаме (изваждаме от обекта двете свойства totalPrice and totalCount)
+  const { totalPrice, totalCount } = useSelector(({ card }) => card);
+
   return (
     <Link to='/card'>
       <button
@@ -9,7 +17,7 @@ function Button({ onClick, className, outline }) {
         className={classNames('button', className, {
           'button--outline': outline,
         })}>
-        <span>520 ₽</span>
+        <span>{totalPrice}</span>
         <div className='button__delimiter'></div>
         <svg
           width='18'
@@ -39,7 +47,7 @@ function Button({ onClick, className, outline }) {
             strokeLinejoin='round'
           />
         </svg>
-        <span>3</span>
+        <span>{totalCount}</span>
       </button>
     </Link>
   );

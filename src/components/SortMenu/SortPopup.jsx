@@ -14,7 +14,8 @@ const SortPopup = React.memo(function SortPopup({ items, activeSortType, onClick
   };
   //? Тук проверяваме къде цъкаме по страницата. Ако сме кликнали на падащите менюта те се показват. Но ако сме някъде другаде те ще се скриват сами. Защото e.path.includes(sortRef.current) проверява къде кликаме по страницата ако пътя съвпадне показва падащато меню иначе го скрива.
   const handleOutsideClick = (e) => {
-    if (!e.path.includes(sortRef.current)) {
+    const path = e.path || (e.composedPath && e.composedPath());
+    if (!path.includes(sortRef.current)) {
       setShowPopup(false);
     }
   };
