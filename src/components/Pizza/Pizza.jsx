@@ -74,7 +74,7 @@ function Pizza({ id, name, imageUrl, price, types, sizes, onClickAddPizza, addTo
               />
             </svg>
             <span>Добавить</span>
-            {console.log(addToCardCount)}
+
             {addToCardCount && <i>{addToCardCount}</i>}
           </Button>
         </div>

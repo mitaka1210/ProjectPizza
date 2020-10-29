@@ -62,7 +62,7 @@ function Home() {
               <Pizza
                 {...obj}
                 onClickAddPizza={handleAddPizzaToCard}
-                addToCardCount={cardItems[obj.id] && cardItems[obj.id].length}
+                addToCardCount={cardItems[obj.id] && cardItems[obj.id].items.length}
                 key={`${obj}_${obj.id}`}
               />
             ))
