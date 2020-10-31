@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/ProjectPizza/static/css/main.d692b922.chunk.css",
+    "main.js": "/ProjectPizza/static/js/main.fb1abfcd.chunk.js",
+    "main.js.map": "/ProjectPizza/static/js/main.fb1abfcd.chunk.js.map",
+    "runtime-main.js": "/ProjectPizza/static/js/runtime-main.f25fe5bf.js",
+    "runtime-main.js.map": "/ProjectPizza/static/js/runtime-main.f25fe5bf.js.map",
+    "static/js/2.16c091dc.chunk.js": "/ProjectPizza/static/js/2.16c091dc.chunk.js",
+    "static/js/2.16c091dc.chunk.js.map": "/ProjectPizza/static/js/2.16c091dc.chunk.js.map",
+    "index.html": "/ProjectPizza/index.html",
+    "precache-manifest.68ad94dbf1533f9b37500c59c81a75c4.js": "/ProjectPizza/precache-manifest.68ad94dbf1533f9b37500c59c81a75c4.js",
+    "service-worker.js": "/ProjectPizza/service-worker.js",
+    "static/css/main.d692b922.chunk.css.map": "/ProjectPizza/static/css/main.d692b922.chunk.css.map",
+    "static/js/2.16c091dc.chunk.js.LICENSE.txt": "/ProjectPizza/static/js/2.16c091dc.chunk.js.LICENSE.txt",
+    "static/js/main.fb1abfcd.chunk.js.LICENSE.txt": "/ProjectPizza/static/js/main.fb1abfcd.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/ProjectPizza/static/media/ProximaNova-Regular.b7c51278.eot",
+    "static/media/empty-cart.png": "/ProjectPizza/static/media/empty-cart.ceb2faf0.png",
+    "static/media/payment-method.svg": "/ProjectPizza/static/media/payment-method.2d5c7cb8.svg",
+    "static/media/pizza-logo.svg": "/ProjectPizza/static/media/pizza-logo.f3327011.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f25fe5bf.js",
+    "static/js/2.16c091dc.chunk.js",
+    "static/css/main.d692b922.chunk.css",
+    "static/js/main.fb1abfcd.chunk.js"
+  ]
+}
