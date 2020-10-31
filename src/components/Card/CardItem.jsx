@@ -23,6 +23,7 @@ function CardItem({
     alert('MINUS');
     onMinusCartItem(id);
   };
+
   return (
     <div className='cart__item'>
       <div className='cart__item-img'>
@@ -35,7 +36,10 @@ function CardItem({
       <div className='cart__item-info'>
         <h3>{name}</h3>
         <p>
-          {type} testo, {size}см.
+          {type ? 'thin' : ''} testo, {size}см.
+        </p>
+        <p>
+          {type ? 'tradi' : ''} testo, {size}см.
         </p>
       </div>
       <div className='cart__item-count'>

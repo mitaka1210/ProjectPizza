@@ -1,6 +1,34 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+
 import PropTypes from 'prop-types';
-const Categories = React.memo(function Categories({ activeCategory, items, onClickCategory }) {
+
+import { FaBars, FaTimes } from 'react-icons/fa';
+
+import { Navg } from './Element';
+const Categories = React.memo(function Categories({
+  activeCategory,
+  items,
+  onClickCategory,
+  className,
+  hambur,
+}) {
+  const [click, setClick] = useState(false);
+  const [button, setButton] = useState(true);
+
+  const showButton = () => {
+    if (window.innerWidth <= 768) {
+      setButton(false);
+    } else {
+      setButton(true);
+    }
+  };
+
+  useEffect(() => {
+    showButton();
+  }, []);
+  window.addEventListener('resize', showButton);
+
+  const handleClick = () => setClick(!click);
   //const [btcolor, setColor] = useState(false);
   //const toggle = () => {
   //  setColor(!btcolor);
@@ -10,12 +38,16 @@ const Categories = React.memo(function Categories({ activeCategory, items, onCli
       {/*<button className={btcolor ? 'bgr' : ''} onClick={toggle}>
         hi
       </button>*/}
-      <ul>
+      <div className='MobileIcon ' onClick={handleClick}>
+        {click ? <FaTimes /> : <FaBars />}
+      </div>
+      <Navg onClick={handleClick} click={click}>
         <li
           className={activeCategory === null ? 'active' : ''}
           onClick={() => onClickCategory(null)}>
-          Все
+          All
         </li>
+
         {items &&
           items.map((e, index) => (
             <li
@@ -25,7 +57,7 @@ const Categories = React.memo(function Categories({ activeCategory, items, onCli
               {e}
             </li>
           ))}
-      </ul>
+      </Navg>
     </main>
   );
 });

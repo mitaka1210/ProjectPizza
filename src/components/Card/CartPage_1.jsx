@@ -1,23 +1,32 @@
 import React from 'react';
+import { CardItem } from '../../components/';
+
+import { Link } from 'react-router-dom';
+import { clearAllCart, removePizza, minusCartItem, plusCartItem } from '../../redux/action/card';
 import { useSelector, useDispatch } from 'react-redux';
-import { CardItem } from '../components';
-import { clearAllCart, removePizza } from '../redux/action/card';
-function Card2() {
+function CartPage_1() {
   const dispatch = useDispatch();
   const { totalPrice, totalCount, items } = useSelector(({ card }) => card);
-  const groupedPizzas = Object.keys(items).map((key) => {
+  const addedPizzas = Object.keys(items).map((key) => {
     return items[key].items[0];
   });
 
   const onClearCart = () => {
-    if (window.confirm('Siguren li si')) {
+    if (window.confirm('You are shore?')) {
       dispatch(clearAllCart());
     }
   };
   const onRemoveItem = (id) => {
-    if (window.confirm('Siguren li si')) {
+    if (window.confirm('You are shore?')) {
       dispatch(removePizza(id));
     }
+  };
+
+  const onPLusItem = (id) => {
+    dispatch(plusCartItem(id));
+  };
+  const onMinusItem = (id) => {
+    dispatch(minusCartItem(id));
   };
   return (
     <div className='cart'>
@@ -51,7 +60,7 @@ function Card2() {
               strokeLinejoin='round'
             />
           </svg>
-          Корзина
+          Bin
         </h2>
         <div className='cart__clear'>
           <svg
@@ -94,26 +103,28 @@ function Card2() {
         </div>
       </div>
       <div className='content__items'>
-        {groupedPizzas.map((obj) => (
+        {addedPizzas.map((obj) => (
           <CardItem
             id={obj.id}
-            key={`${obj.id}`}
             name={obj.name}
             type={obj.type}
             size={obj.size}
-            onRemove={onRemoveItem}
-            totalCountCard={items[obj.id].items.length}
-            totalPriceForCardPage={items[obj.id].totalPizzaPrice}
+            key={obj.id}
+            totalPrice={items[obj.id].totalPrice}
+            totalCount={items[obj.id].items.length}
+            removeItem={onRemoveItem}
+            onPlusCartItem={onPLusItem}
+            onMinusCartItem={onMinusItem}
           />
         ))}
       </div>
       <div className='cart__bottom'>
         <div className='cart__bottom-details'>
           <span>
-            Всего пицц: <b>{totalCount}</b>
+            All Pizzas: <b>{totalCount}</b>
           </span>
           <span>
-            Сумма заказа: <b>{totalPrice} ₽</b>
+            Total Price: <b>{totalPrice}</b>
           </span>
         </div>
         <div className='cart__bottom-buttons'>
@@ -133,10 +144,12 @@ function Card2() {
               />
             </svg>
 
-            <span>Вернуться назад</span>
+            <Link to='/'>
+              <span>Go back</span>
+            </Link>
           </a>
           <div className='button pay-btn'>
-            <span>Оплатить сейчас</span>
+            <span>Pay now</span>
           </div>
         </div>
       </div>
@@ -144,4 +157,4 @@ function Card2() {
   );
 }
 
-export default Card2;
+export default CartPage_1;

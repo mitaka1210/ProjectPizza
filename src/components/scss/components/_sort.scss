@@ -1,7 +1,11 @@
 @import 'variables';
 
 .sort {
+  margin-left: 20px;
   position: relative;
+  @media (max-width: 768px) {
+    z-index: 1;
+  }
   &__label {
     display: flex;
     align-items: center;
@@ -11,7 +15,7 @@
       transform: rotate(180deg);
 
       &.rotated {
-        transform: rotate(0deg);
+        transform: rotate(0);
       }
     }
 
@@ -36,9 +40,14 @@
     overflow: hidden;
     padding: 10px 0;
     width: 160px;
+    @media (max-width: 768px) {
+      top: 6em;
+      left: 6em;
+    }
 
     ul {
       overflow: hidden;
+
       li {
         padding: 12px 20px;
         cursor: pointer;

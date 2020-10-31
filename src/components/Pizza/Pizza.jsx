@@ -3,11 +3,11 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import Button from '../button/ButtonAddPizza';
 function Pizza({ id, name, imageUrl, price, types, sizes, onClickAddPizza, addToCardCount }) {
-  const typesNames = ['тонкое', 'традиционное'];
+  const typesNames = ['thin ', 'traditional'];
   const availableSizesPizza = [26, 30, 40];
   const [activeType, setActiveType] = useState(types[0]);
   const [activeSize, setActiveSize] = useState(0);
-
+  console.log(activeType);
   const onSelectType = (index) => {
     setActiveType(index);
   };
@@ -73,7 +73,7 @@ function Pizza({ id, name, imageUrl, price, types, sizes, onClickAddPizza, addTo
                 fill='white'
               />
             </svg>
-            <span>Добавить</span>
+            <span>Add</span>
 
             {addToCardCount && <i>{addToCardCount}</i>}
           </Button>

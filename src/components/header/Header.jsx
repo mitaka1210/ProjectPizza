@@ -19,7 +19,9 @@ function Header() {
 
             <div>
               <h1>React Pizza</h1>
-              <p>самая вкусная пицца во вселенной</p>
+              <p>
+                The <b>Best</b> pizza in the <b>World</b>
+              </p>
             </div>
           </div>
         </Link>
