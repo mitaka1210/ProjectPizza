@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "63253584377ba06b8f8bad656cf0d0a0",
+    "revision": "1f2fa74372a85828a23047e75d7799fd",
     "url": "/ProjectPizza/index.html"
   },
   {
-    "revision": "dd995414c401a7e07438",
-    "url": "/ProjectPizza/static/css/main.d692b922.chunk.css"
+    "revision": "7097c4a1620dd67e74fb",
+    "url": "/ProjectPizza/static/css/main.5ac4418c.chunk.css"
   },
   {
     "revision": "6163b70ad35737be1dac",
@@ -16,12 +16,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ProjectPizza/static/js/2.16c091dc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dd995414c401a7e07438",
-    "url": "/ProjectPizza/static/js/main.fb1abfcd.chunk.js"
+    "revision": "7097c4a1620dd67e74fb",
+    "url": "/ProjectPizza/static/js/main.1827768a.chunk.js"
   },
   {
     "revision": "542d8ffc7f489fdc1fc9a1f0e7000026",
-    "url": "/ProjectPizza/static/js/main.fb1abfcd.chunk.js.LICENSE.txt"
+    "url": "/ProjectPizza/static/js/main.1827768a.chunk.js.LICENSE.txt"
   },
   {
     "revision": "cea46a462ba49fa4baac",
