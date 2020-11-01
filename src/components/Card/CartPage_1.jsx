@@ -128,7 +128,7 @@ function CartPage_1() {
           </span>
         </div>
         <div className='cart__bottom-buttons'>
-          <a href='/' className='button button--outline button--add go-back-btn'>
+          <Link to='/' className='button button--outline button--add go-back-btn'>
             <svg
               width='8'
               height='14'
@@ -144,10 +144,11 @@ function CartPage_1() {
               />
             </svg>
 
-            <Link to='/'>
-              <span>Go back</span>
+             <Link to='/'>
+               <span>Go Back</span>
             </Link>
-          </a>
+          </Link>
+          
           <div className='button pay-btn'>
             <span>Pay now</span>
           </div>
