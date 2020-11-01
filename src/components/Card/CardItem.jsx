@@ -1,5 +1,5 @@
 import React from 'react';
-import ButtonClean from '../Button/ButtonAddPizza.jsx';
+import ButtonAddPizza from '../Button/ButtonAddPizza.jsx';
 
 function CardItem({
   id,
@@ -86,7 +86,7 @@ function CardItem({
         <b>{totalPrice} $</b>
       </div>
       <div className='cart__item-remove'>
-        <ButtonClean onClick={handlerClickRemove} className='button--circle' outline>
+        <ButtonAddPizza onClick={handlerClickRemove} className='button--circle' outline>
           <svg
             width='10'
             height='10'
@@ -102,7 +102,7 @@ function CardItem({
               fill='#EB5A1E'
             />
           </svg>
-        </ButtonClean>
+        </ButtonAddPizza>
       </div>
     </div>
   );
