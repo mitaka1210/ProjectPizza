@@ -1,5 +1,5 @@
 import React from 'react';
-import ButtonAddPizza from '../Button/ButtonAddPizza.jsx';
+import ButtonAddPizza from '../button/ButtonAddPizza.jsx';
 
 function CardItem({
   id,
