@@ -1,7 +1,7 @@
   import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import Button from '../Button/ButtonAddPizza.jsx';
+import Button from '../button/ButtonAddPizza.jsx';
 function Pizza({ id, name, imageUrl, price, types, sizes, onClickAddPizza, addToCardCount }) {
   const typesNames = ['thin ', 'traditional'];
   const availableSizesPizza = [26, 30, 40];
