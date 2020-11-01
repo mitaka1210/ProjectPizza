@@ -1,7 +1,7 @@
 {
   "name": "pizzashop",
   "version": "0.1.0",
-  "homepage": "https://mitaka1210.github.io/ProjectPizza/",
+  
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -31,13 +31,15 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "npx json-server --watch public/db.json --port=3001",
+    "server": "node server.js",
+    "json-server": "json-server --watch public/db.json --port=3001",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
   },
+  "proxy": "http://localhost:3001",
   "browserslist": {
     "production": [
       ">0.2%",
