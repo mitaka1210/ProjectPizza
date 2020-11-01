@@ -1,5 +1,5 @@
 import React from 'react';
-import ButtonClean from '../Button/ButtonCleanCart';
+import ButtonClean from '../Button/ButtonAddPizza';
 
 function CardItem({
   id,
