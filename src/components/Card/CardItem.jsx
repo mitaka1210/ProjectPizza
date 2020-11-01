@@ -1,5 +1,5 @@
 import React from 'react';
-import ButtonClean from '../Button/ButtonAddPizza';
+import ButtonClean from '../Button/ButtonAddPizza.jsx'
 
 function CardItem({
   id,
@@ -35,9 +35,6 @@ function CardItem({
       </div>
       <div className='cart__item-info'>
         <h3>{name}</h3>
-        <p>
-          {type} testo, {size}см.
-        </p>
         <p>
           {type} testo, {size}см.
         </p>
