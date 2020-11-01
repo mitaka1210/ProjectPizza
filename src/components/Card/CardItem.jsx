@@ -36,10 +36,10 @@ function CardItem({
       <div className='cart__item-info'>
         <h3>{name}</h3>
         <p>
-          {type ? 'thin' : ''} testo, {size}см.
+          {type} testo, {size}см.
         </p>
         <p>
-          {type ? 'tradi' : ''} testo, {size}см.
+          {type} testo, {size}см.
         </p>
       </div>
       <div className='cart__item-count'>
