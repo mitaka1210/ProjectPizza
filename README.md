@@ -1,80 +1,83 @@
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-</style>
+### Hey there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 
-<h1 style="text-align:center; font-family: 'Lobster', cursive; ">Read Me</h1>
+<a href="https://discord.gg/XTW52Kt">
+  <img align="left" alt="Abhishek's Discord" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/facebook.svg" />
+</a>
+<a href="https://twitter.com/abhisheknaiidu">
+  <img align="left" alt="Abhishek Naidu | Twitter" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/twitter.svg" />
+</a>
+<a href="https://www.linkedin.com/in/abhisheknaiidu/">
+  <img align="left" alt="Abhishek's LinkedIN" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/linkedin.svg" />
+</a>
+<a href="https://open.spotify.com/user/e90fe4zsndbm6xoe2t7t8kogf?si=WaLKpwvWTle0btle2qPb6g">
+  <img align="left" alt="Abhishek's Spotify" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/spotify.svg" />
+</a>
+<a href="https://www.reddit.com/user/geekyabhi/">
+  <img align="left" alt="Abhishek's Reddit" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/reddit.svg" />
+</a>
 
-<h1 style= "color:white; font-size: 1.3em;">Project build with React+Redux+Heroku +Figma. When learn Redux and React JS<h1>
+![](https://visitor-badge.glitch.me/badge?page_id=mitaka1210.mitaka1210)
 
-### Menu
+<br />
 
-- [Website](#website)
-- [Technologies](#Technologies)
-- [Code](#Code)
-- [Available Scripts](#Available-Scripts)
-- [License](#license)
-- [Author-Info](#About-info)
+Hi, I'm [Dimitar Dimitrov !](https://blog.abhisheknaidu.tech/) , a passionate self-taught Junior Front-end Developer.
 
----
+  <img align="right" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="500" height="320" />
+  
+**Talking about Personal Stuffs:**
 
-## Website :
+- 👨🏽‍💻 I’m currently working on something cool website;
+- 🌱 I’m currently learning Typescript;
+- 💬 Ask me about anything, I am happy to help;
+- 📫 How to reach me: [@dimitrov](https://twitter.com/abhisheknaiidu);
+- 📝[Resume](https://drive.google.com/file/d/1sZ5DFLoYLKvJmgoyJc6VZs-JYROl7A9o/view)
 
-<div>
-<p style="font-size: 1.3em;">
-If you want visited PortFolio.
-</p>
-<button style="background-color:white; cursor: pointer; margin: 10px; border: 3px solid #6603fc; border-radius: 20px; height: 50px;">
-<a href="https://mitaka1210.github.io/Personal-Portfolio--2//" style="color: red;">My Portfolio</a></button>
-</div>
+**Languages and Tools:**
 
-[Back To The Top](#Menu)
+<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
 
-#### Technologies :
+<!--<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png"></code>-->
 
-<div style="text-align: center; margin-bottom: 15px">
-<img src="https://img.icons8.com/plasticine/50/000000/react.png"/>
-<img src="https://img.icons8.com/color/48/000000/redux.png"/>
+<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"></code>
+<code><img height="20" src="https://raw.githubusercontent.com/github/explore/5c058a388828bb5fde0bcafd4bc867b5bb3f26f3/topics/graphql/graphql.png"></code>
 
-<!--<img src="https://img.icons8.com/color/50/000000/javascript.png"/>-->
-<img src="https://img.icons8.com/fluent/50/000000/visual-studio-code-2019.png"/>
+<!--<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code>
+<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png"></code>
+<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
+<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"></code>-->
 
-<img src="https://img.icons8.com/color/48/000000/html-5.png"/>
-<img src="https://img.icons8.com/color/48/000000/css3.png"/>
-<img src="./images/figma_logo_icon_147289.png" style="width: 45px; padding-bottom: 4px;"/>
-<img src="./images/file_type_sass_icon_130182.png" style="width:55px"></img>
-</div>
-<img src="https://img.icons8.com/nolan/64/heroku.png"/>
+<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"></code>
+<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"></code>
 
-[Back To The Top](#Menu)
+📊 **This Week I Spent My Time On:**
 
-### Code :
+<!--START_SECTION:waka-->
 
-<button style=" cursor: pointer;width: 90px; height: 30px; "> <a href="https://github.com/mitaka1210/ProjectPizza">Check Code</a></button>
+```text
+TypeScript  5 hrs 2 mins    ██████████████░░░░░░░░░░░   56.51 %
+React JS       1 hr 11 mins    ███▒░░░░░░░░░░░░░░░░░░░░░   13.39 %
+SCSS       1 hr 7 mins     ███░░░░░░░░░░░░░░░░░░░░░░   12.61 %
+Redux      3 hrs 5 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.44 %
+JSON       17 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.23 %
+```
 
-<button style=" cursor: pointer;width: 120px; height: 30px;margin-top: 1em;"> <a href="hhttps://my-pizza-shop-1.herokuapp.com/">Shop App Pizza</a></button>
+<!--END_SECTION:waka-->
 
-[Back To The Top](#Menu)
+If you like what I do, maybe consider buying me a coffee/tea 🥺👉👈
 
-<hr/>
+<a href="https://www.buymeacoffee.com/abhisheknaiidu" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" width="150" ></a>
 
-### About info
+🚧 **My Todoist Stats:**
 
-<div class="social" style="display: inline;">
-		<ul style="display: flex;
-		justify-content: space-evenly;">
-			<li style=" list-style:none"><a href="https://www.facebook.com/mitaka1210">
-				<img src="./images/social/facebook.png" style="width: 55px;"/></a>
-			</li>
-			<li style=" list-style:none"><a href=https://twitter.com/dimitar1201">
-    			<img src="./images/social/twitter.png" style="width: 55px"/></a>
-    		</li>
-			<li style=" list-style:none"><a href="https://www.linkedin.com/in/dimitar-dimitrov-a537a2162/">
-    			<img src="./images/social/linkedin.png" style="width: 55px"/></a>
-    		</li>
-			<li style=" list-style:none"> <a href="https://mitaka1210.github.io/Portfolio-ENG">
-    			<img src="./images/social/Website.png" style="width: 58px;"/></a>
-    		</li>
-    	</ul>
-    </div>
+<!-- TODO-IST:START -->
 
-[Back To The Top](#Menu)
+🏆 6,886 Karma Points  
+🌸 Completed 0 tasks today  
+✅ Completed 524 tasks so far  
+⏳ Longest streak is 10 days
+
+<!-- TODO-IST:END -->
+
+📈 My GitHub Stats
+
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=mitaka1210&show_icons=true&theme=gotham" alt="mitaka1210" />
