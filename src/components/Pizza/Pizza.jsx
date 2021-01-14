@@ -1,7 +1,8 @@
-  import React, { useState } from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import Button from '../button/ButtonAddPizza.jsx';
+
 function Pizza({ id, name, imageUrl, price, types, sizes, onClickAddPizza, addToCardCount }) {
   const typesNames = ['thin ', 'traditional'];
   const availableSizesPizza = [26, 30, 40];
@@ -29,7 +30,7 @@ function Pizza({ id, name, imageUrl, price, types, sizes, onClickAddPizza, addTo
   return (
     <section>
       <div className='pizza-block'>
-        <img className='pizza-block__image' src={imageUrl} alt='Pizza' />
+                 <img className='pizza-block__image' src={imageUrl} alt='Pizza' />
         <h4 className='pizza-block__title'>{name}</h4>
         <div className='pizza-block__selector'>
           <ul>

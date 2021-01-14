@@ -1,68 +1,80 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+</style>
 
-## Available Scripts
+<h1 style="text-align:center; font-family: 'Lobster', cursive; ">Read Me</h1>
 
-In the project directory, you can run:
+<h1 style= "color:white; font-size: 1.3em;">Project build with React+Redux+Heroku +Figma. When learn Redux and React JS<h1>
 
-### `yarn start`
+### Menu
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Website](#website)
+- [Technologies](#Technologies)
+- [Code](#Code)
+- [Available Scripts](#Available-Scripts)
+- [License](#license)
+- [Author-Info](#About-info)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+---
 
-### `yarn test`
+## Website :
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<div>
+<p style="font-size: 1.3em;">
+If you want visited PortFolio.
+</p>
+<button style="background-color:white; cursor: pointer; margin: 10px; border: 3px solid #6603fc; border-radius: 20px; height: 50px;">
+<a href="https://mitaka1210.github.io/Personal-Portfolio--2//" style="color: red;">My Portfolio</a></button>
+</div>
 
-### `yarn build`
+[Back To The Top](#Menu)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Technologies :
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+<div style="text-align: center; margin-bottom: 15px">
+<img src="https://img.icons8.com/plasticine/50/000000/react.png"/>
+<img src="https://img.icons8.com/color/48/000000/redux.png"/>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!--<img src="https://img.icons8.com/color/50/000000/javascript.png"/>-->
+<img src="https://img.icons8.com/fluent/50/000000/visual-studio-code-2019.png"/>
 
-### `yarn eject`
+<img src="https://img.icons8.com/color/48/000000/html-5.png"/>
+<img src="https://img.icons8.com/color/48/000000/css3.png"/>
+<img src="./images/figma_logo_icon_147289.png" style="width: 45px; padding-bottom: 4px;"/>
+<img src="./images/file_type_sass_icon_130182.png" style="width:55px"></img>
+</div>
+<img src="https://img.icons8.com/nolan/64/heroku.png"/>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+[Back To The Top](#Menu)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Code :
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<button style=" cursor: pointer;width: 90px; height: 30px; "> <a href="https://github.com/mitaka1210/ProjectPizza">Check Code</a></button>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<button style=" cursor: pointer;width: 120px; height: 30px;margin-top: 1em;"> <a href="hhttps://my-pizza-shop-1.herokuapp.com/">Shop App Pizza</a></button>
 
-## Learn More
+[Back To The Top](#Menu)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<hr/>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### About info
 
-### Code Splitting
+<div class="social" style="display: inline;">
+		<ul style="display: flex;
+		justify-content: space-evenly;">
+			<li style=" list-style:none"><a href="https://www.facebook.com/mitaka1210">
+				<img src="./images/social/facebook.png" style="width: 55px;"/></a>
+			</li>
+			<li style=" list-style:none"><a href=https://twitter.com/dimitar1201">
+    			<img src="./images/social/twitter.png" style="width: 55px"/></a>
+    		</li>
+			<li style=" list-style:none"><a href="https://www.linkedin.com/in/dimitar-dimitrov-a537a2162/">
+    			<img src="./images/social/linkedin.png" style="width: 55px"/></a>
+    		</li>
+			<li style=" list-style:none"> <a href="https://mitaka1210.github.io/Portfolio-ENG">
+    			<img src="./images/social/Website.png" style="width: 58px;"/></a>
+    		</li>
+    	</ul>
+    </div>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+[Back To The Top](#Menu)
