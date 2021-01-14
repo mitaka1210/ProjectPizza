@@ -68,3 +68,19 @@ SCSS                     8 mins              ░░░░░░░░░░░�
 📈 My GitHub Stats
 
 <p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=mitaka1210&show_icons=true&theme=gotham" alt="mitaka1210" />
+
+
+🚧 **My Todoist Stats:**
+
+<!-- TODO-IST:START -->
+
+🏆 6,886 Karma Points  
+🌸 Completed 0 tasks today  
+✅ Completed 524 tasks so far  
+⏳ Longest streak is 10 days
+
+<!-- TODO-IST:END -->
+
+📈 My GitHub Stats
+
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=mitaka1210&show_icons=true&theme=gotham" alt="mitaka1210" />
