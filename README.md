@@ -45,11 +45,11 @@ Hi, I'm [Dimitar Dimitrov !](https://blog.abhisheknaidu.tech/) , a passionate se
 
 <!--START_SECTION:waka-->
 ```text
-TypeScript  5 hrs 2 mins    ██████████████░░░░░░░░░░░   56.51 % 
-ReactJS     7 hrs 11 mins    ███▒░░░░░░░░░░░░░░░░░░░░░   13.39 % 
-SCSS        1 hrs 7 mins     ███░░░░░░░░░░░░░░░░░░░░░░   12.61 % 
-Redux       4 hrs 34 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.44 % 
-JSON        17 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.23 % 
+TypeScript   5 hrs 2 mins    ██████████████░░░░░░░░░░░   56.51 % 
+React JS        1 hr 11 mins    ███▒░░░░░░░░░░░░░░░░░░░░░   13.39 % 
+SCSS       1 hr 7 mins     ███░░░░░░░░░░░░░░░░░░░░░░   12.61 % 
+Redux       34 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.44 % 
+JSON       17 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.23 % 
 ```
 <!--END_SECTION:waka-->
 
