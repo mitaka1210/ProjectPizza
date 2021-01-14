@@ -34,41 +34,33 @@ Hi, I'm [Dimitar Dimitrov !](https://blog.abhisheknaidu.tech/) , a passionate se
 
 **Languages and Tools:**
 
+<div>
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
-
+<!--<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png"></code>-->
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"></code>
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/5c058a388828bb5fde0bcafd4bc867b5bb3f26f3/topics/graphql/graphql.png"></code>
+<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png"></code>
+<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png"></code>
+<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
+<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"></code>
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"></code>
+
+</div>
 
 📊 **This Week I Spent My Time On:**
 
 <!--START_SECTION:waka-->
+
 ```text
-💬 Languages:
-JavaScript               5 hrs 26 mins       ███████████████░░░░░░░░░░   61.97 %
-React JS                 1 hr 35 mins        ████░░░░░░░░░░░░░░░░░░░░░   18.07 %
-Redux                    1 hr 9 mins         ███░░░░░░░░░░░░░░░░░░░░░░   13.3 %
-TypeScript               22 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   4.32 %
-SCSS                     8 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.62 %
-```                      17 mins             ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.23 % 
+TypeScript 5 hrs 2 mins    ██████████████░░░░░░░░░░░   56.51 %
+React JS   1 hr 11 mins    ███▒░░░░░░░░░░░░░░░░░░░░░   13.39 %
+SCSS       1 hr 7 mins     ███░░░░░░░░░░░░░░░░░░░░░░   12.61 %
+Redux      3 hrs 5 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.44 %
+JSON       17 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.23 %
+```
+
 <!--END_SECTION:waka-->
-
-🚧 **My Todoist Stats:**
-
-<!-- TODO-IST:START -->
-
-🏆 6,886 Karma Points  
-🌸 Completed 0 tasks today  
-✅ Completed 524 tasks so far  
-⏳ Longest streak is 10 days
-
-<!-- TODO-IST:END -->
-
-📈 My GitHub Stats
-
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=mitaka1210&show_icons=true&theme=gotham" alt="mitaka1210" />
-
 
 🚧 **My Todoist Stats:**
 
