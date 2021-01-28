@@ -35,13 +35,8 @@
     <a href="https://www.google.bg/">
 <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="" style="margin-right:15px">
     </a></div>
-    
-
+   
 </div>
- 
-
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -109,12 +104,12 @@
 
 The project was build with:
 
-Tools: 
+<h2>Tools</h2>: 
 1. <a href="https://www.npmjs.com/package/axios">Axios</a>
 2. <a href="https://www.npmjs.com/package/json-server">JSON-Server</a>
 3. <a href="https://dashboard.heroku.com/apps">Heroku</a>
 
-<h2>Tehnology</h2>
+<h2>Technologys:</h2>
 
 <div style="display:flex">
   <ul>
@@ -163,16 +158,16 @@ Then you need to register at <strong>Stripe</strong>, <strong>Commerce.js</stron
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-For the use project when add somethink in card you can try free make it payment.<a href="https://stripe.com/docs/testing">You can readt this documentation:</a>
+Need only check website !!!!
 
-_For more examples, please refer to the [Documentation](https://stripe.com/docs/testing)_
+_For more examples, please refer to the [Documentation](https://github.com/mitaka1210/ProjectPizza)_
 
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/mitaka1210/ProjectPizza) for a list of proposed features (and known issues).
 
 
 
