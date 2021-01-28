@@ -191,6 +191,7 @@ Contributions are what make the open source community such an amazing place to b
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+<<<<<<< HEAD
 
 
 <!-- LICENSE -->
@@ -207,6 +208,56 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Project Link: <a href="https://dazzling-joliot-4402f9.netlify.app/">E-shop</a>
 
+=======
+<div>
+<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
+<!--<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png"></code>-->
+<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"></code>
+<code><img height="20" src="https://raw.githubusercontent.com/github/explore/5c058a388828bb5fde0bcafd4bc867b5bb3f26f3/topics/graphql/graphql.png"></code>
+<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png"></code>
+<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png"></code>
+<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
+<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>
+<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"></code>
+<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"></code>
+
+</div>
+
+📊 **This Week I Spent My Time On:**
+
+
+
+<!--START_SECTION:waka-->
+
+```text
+TypeScript 5 hrs 2 mins    ██████████████░░░░░░░░░░░   56.51 %
+
+React JS   1 hr 11 mins    ███▒░░░░░░░░░░░░░░░░░░░░░   13.39 %
+
+SCSS       1 hr 7 mins     ███░░░░░░░░░░░░░░░░░░░░░░   12.61 %
+
+Redux      3 hrs 5 mins    █▓░░░░░░░░░░░░░░░░░░░░░░░   06.44 %
+
+JSON       2hrs 17 mins    ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.23 %
+```
+
+<!--END_SECTION:waka-->
+
+
+
+```text
+🔥 Editors and Prepros:
+SublimeText             6 hrs 42 mins       ███████████████████░░░░░░    77.43%
+
+Visual Studio           1 hr 35 mins        ████░░░░░░░░░░░░░░░░░░░░░    8.57%
+
+VS Code                 23 mins             ███████████████████████████░ 92.49%
+
+Prepros                 1 hr 35 mins        ████████░░░░░░░░░░░░░░░░░░░░ 28.07%
+
+Figma          1 hr 35 mins                 ██████░░░░░░░░░░░░░░░░░░░░░░ 18.07%
+```
+>>>>>>> 095c8af4a394c672b12bde8d52ba220ddf933181
 
 
 <!-- ACKNOWLEDGEMENTS -->
